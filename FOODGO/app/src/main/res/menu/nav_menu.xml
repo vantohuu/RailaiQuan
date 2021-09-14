@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Thanh toán">
+        <menu>
+            <item android:title="@string/nav_thanhtoan"
+                android:id="@+id/nav_menu_thanhtoan"
+                android:icon="@drawable/ic_baseline_local_grocery_store_24"/>
+        </menu>
+    </item>
+    <item android:title="Tùy chọn">
+        <menu>
+            <item android:title="@string/nav_canhan"
+                android:id="@+id/nav_menu_canhan"
+                android:icon="@drawable/ic_baseline_person_24"/>
+            <item android:title="@string/nav_dangxuat"
+                android:id="@+id/nav_menu_dangxuat"
+                android:icon="@drawable/ic_baseline_logout_24"/>
+            <item android:title="@string/nav_thoat"
+                android:id="@+id/nav_menu_thoat"
+                android:icon="@drawable/ic_baseline_exit"/>
+        </menu>
+    </item>
+</menu>

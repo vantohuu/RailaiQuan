@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "625680127495",
+    "project_id": "userapp-41deb",
+    "storage_bucket": "userapp-41deb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:625680127495:android:a07bac86116e25e5733ca2",
+        "android_client_info": {
+          "package_name": "com.example.foodgo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "625680127495-75pmpm3dtf39tcdjktu93f0b45hij153.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.foodgo",
+            "certificate_hash": "48dcc74f9e731a1b81caec4d3c6272f5fd208bad"
+          }
+        },
+        {
+          "client_id": "625680127495-kskq9aemu47da9a68hev1m6mcorcli3t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBw2IVb54yhsukrtRdDyYoTAqwUlGfqeBE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "625680127495-kskq9aemu47da9a68hev1m6mcorcli3t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

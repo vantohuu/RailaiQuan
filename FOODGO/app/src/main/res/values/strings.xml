@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">railaiQUAN</string>
+    <string name="dangki">
+         <b><u>Đăng kí</u></b>
+    </string>
+    <string name="nav_thanhtoan">Thanh toán</string>
+    <string name="nav_canhan">Thông tin cá nhân</string>
+    <string name="nav_tacgia">Tác giả</string>
+    <string name="nav_dangxuat">Đăng xuất</string>
+    <string name="nav_Open_drawer">Mở</string>
+    <string name="nav_Close_drawer">Đóng</string>
+    <string name="text">Trận đấu giữa đội tuyển Việt Nam - Úc trong khuôn khổ vòng loại thứ 3 World Cup 2022 khu vực châu Á (AFC Asian Qualifiers - Road to Qatar) diễn ra lúc 19h ngày 7-9 trên SVĐ Mỹ Đình. Đội tuyển Việt Nam thất bại với tỉ số cách biệt tối thiểu 0-1 trước đội Úc.
+
+Phát biểu trong cuộc họp báo sau trận đấu, HLV trưởng đội tuyển Việt Nam Park Hang Seo cho biết đội tuyển Việt Nam đã có một trận đấu nỗ lực và thực hiện đúng chiến thuật mà ban huấn luyện đưa ra.
+
+Liên quan đến tình huống đội tuyển Việt Nam bị từ chối quả phạt 11m, HLV Park Hang Seo nói: "Sau trận đấu với Saudi Arabia, tôi đã xem đi xem lại tình huống Việt Nam bị phạt 11m và Duy Mạnh phải rời sân. Tôi thừa nhận tình huống đó cần phải có phạt 11m. Tuy nhiên ngoài phạt 11m ra trọng tài còn phạt thêm Duy Mạnh 1 thẻ vàng tôi cho là chưa hợp lý. Mặc dù quyết định của trọng tài là không thể thay đổi được nhưng tôi suy nghĩ nó có quá khắc nghiệt không?
+
+Về tình huống đội tuyển Việt Nam hôm nay bị từ chối quả phạt 11m, tôi thấy trọng tài chính đã đi xem VAR. Tôi nghĩ ông ấy đã xem đi xem lại tình huống rồi và tôi tuân theo quyết định của trọng tài".
+
+HLV Park Hang Seo cho biết đây là lần đầu tiên đội tuyển Việt Nam vào đến vòng loại cuối World Cup và các đối thủ đều rất mạnh. Trong trận đấu với Úc hôm nay, ông Park cho rằng trình độ của đội tuyển Việt Nam không quá xa với Úc.
+
+"Trình độ của đội tuyển Việt Nam với Úc trong trận này cho thấy không quá cách biệt. Nhưng cái mà chúng ta không thể cải thiện được đó chính là sự thua thiệt về thể hình, thể lực. Tình huống dẫn đến bàn thua của đội tuyển Việt Nam, nếu hậu vệ chọn vị trí tốt hơn, chúng ta có thể đã không bị dẫn trước", ông Park chia sẻ.</string>
+    <string name="nav_thoat">Thoát</string>
+    <string name="channel_description">channel</string>
+    <string name="channel">channel</string>
+</resources>

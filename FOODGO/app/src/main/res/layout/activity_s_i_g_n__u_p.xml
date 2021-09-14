@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/anh"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/chimbiennang"
+        android:text="Gmail đăng nhập"
+        android:textColor="#009688"
+        android:textSize="13sp" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/tendangnhap"
+        android:layout_marginTop="5dp"
+        android:textSize="16sp"
+        android:id="@+id/sign_up_edtTendangnhap"
+        android:textColor="#009688"
+        android:padding="7dp"
+        android:drawableLeft="@drawable/ic_baseline_account_circle_24"
+        android:hint="Gmail đăng nhập"
+        android:textColorHint="#DCDDDD"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/cutom_edtlogin"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mật khẩu"
+        android:layout_marginTop="5dp"
+        android:textColor="#009688"
+        android:textSize="13sp"
+        android:fontFamily="@font/chimbiennang"
+        android:layout_marginLeft="30dp"
+        />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/tendangnhap"
+        android:layout_marginTop="5dp"
+        android:inputType="textPassword"
+        android:textColor="#009688"
+        android:hint="Mật khẩu"
+        android:drawableLeft="@drawable/ic_baseline_shield_24"
+        android:textColorHint="#DCDDDD"
+        android:padding="7dp"
+        android:textSize="16sp"
+        android:id="@+id/sign_up_edtMatkhau"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/cutom_edtlogin"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xác nhận mật khẩu"
+        android:layout_marginTop="5dp"
+        android:textColor="#009688"
+        android:textSize="13sp"
+        android:fontFamily="@font/chimbiennang"
+        android:layout_marginLeft="30dp"
+        />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/tendangnhap"
+        android:layout_marginTop="5dp"
+        android:drawableLeft="@drawable/ic_baseline_shield_24"
+        android:inputType="textPassword"
+        android:textColor="#009688"
+        android:hint="Xác nhận mật khẩu"
+        android:textColorHint="#DCDDDD"
+        android:padding="7dp"
+        android:textSize="16sp"
+        android:id="@+id/signup_edtxacnhanMatkhau"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/cutom_edtlogin"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/sign_up_txt_check"
+        android:textSize="13sp"
+        android:text="@string/dangki"
+        android:visibility="gone"
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:text="Đăng kí"
+        android:fontFamily="@font/chimbiennang"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFFFFF"
+        android:id="@+id/sign_up_btn"
+        android:background="@drawable/custom_loginbtn"
+        android:layout_height="40dp"/>
+</LinearLayout>

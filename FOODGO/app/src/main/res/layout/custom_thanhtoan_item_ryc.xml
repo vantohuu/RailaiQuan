@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:padding="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@mipmap/sup_ngo_thit_ga"
+        android:id="@+id/thanhtoan_ryc_item_img"
+        app:civ_border_color="@color/teal_700"
+        app:civ_border_width="1dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:id="@+id/thanhtoan_ryc_item_ten"
+        android:layout_toRightOf="@id/thanhtoan_ryc_item_img"
+        android:text="Tên"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Số lượng"
+        android:layout_toRightOf="@id/thanhtoan_ryc_item_img"
+        android:layout_below="@+id/thanhtoan_ryc_item_ten"
+        android:layout_marginTop="3dp"
+        android:id="@+id/thanhtoan_ryc_item_soluong"
+        android:layout_marginLeft="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thành tiền"
+        android:layout_toRightOf="@id/thanhtoan_ryc_item_img"
+        android:layout_below="@+id/thanhtoan_ryc_item_soluong"
+        android:layout_marginTop="3dp"
+        android:id="@+id/thanhtoan_ryc_item_thanhtien"
+        android:layout_marginLeft="20dp"
+        />
+</RelativeLayout>

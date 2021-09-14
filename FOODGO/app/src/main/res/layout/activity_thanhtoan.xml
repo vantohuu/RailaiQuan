@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THANH TOÁN"
+        android:textColor="@color/teal_700"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:textSize="28sp"
+        android:fontFamily="@font/chimbiennang"
+        />
+    <LinearLayout
+        android:layout_width="350dp"
+        android:background="@drawable/custom_background_act_tttk"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:padding="20dp"
+        >
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:id="@+id/thanhtoan_ryc"
+            android:layout_gravity="center"
+            android:layout_height="400dp"/>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@color/teal_700"
+                android:text="Thành tiền: "/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/teal_700"
+                android:text="10000"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:id="@+id/thanhtoan_txt_tongtien"
+                android:layout_marginLeft="60dp"
+                />
+        </LinearLayout>
+        <Button
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:text="Thanh toán"
+            android:id="@+id/thanhtoan_btn"
+            android:textColor="@color/white"
+            android:background="@drawable/custom_loginbtn"
+            android:layout_height="50dp"/>
+    </LinearLayout>
+</LinearLayout>

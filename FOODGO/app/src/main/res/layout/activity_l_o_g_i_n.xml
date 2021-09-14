@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/anh"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/chimbiennang"
+        android:text="Gmail đăng nhập"
+        android:textColor="#009688"
+        android:textSize="16sp" />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/tendangnhap"
+        android:layout_marginTop="5dp"
+        android:textSize="16sp"
+        android:id="@+id/login_edtTendangnhap"
+        android:textColor="#009688"
+        android:padding="7dp"
+        android:drawableLeft="@drawable/ic_baseline_account_circle_24"
+        android:hint="Gmail đăng nhập"
+        android:textColorHint="#DCDDDD"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/cutom_edtlogin"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mật khẩu"
+        android:layout_marginTop="5dp"
+        android:textColor="#009688"
+        android:textSize="16sp"
+        android:fontFamily="@font/chimbiennang"
+        android:layout_marginLeft="30dp"
+        />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/tendangnhap"
+        android:layout_marginTop="5dp"
+        android:inputType="textPassword"
+        android:textColor="#009688"
+        android:drawableLeft="@drawable/ic_baseline_shield_24"
+        android:hint="Mật khẩu"
+        android:textColorHint="#DCDDDD"
+        android:padding="7dp"
+        android:textSize="16sp"
+        android:id="@+id/login_edtMatkhau"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/cutom_edtlogin"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/login_txt_check"
+        android:textSize="13sp"
+        android:text="@string/dangki"
+        android:padding="20dp"
+        android:visibility="gone"
+        />
+        />
+    <Button
+        android:layout_width="150dp"
+        android:text="Đăng nhập"
+        android:fontFamily="@font/chimbiennang"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFFFFF"
+        android:id="@+id/login_btn"
+        android:background="@drawable/custom_loginbtn"
+        android:layout_height="40dp"/>
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_gravity="center_horizontal"
+       android:layout_marginTop="20dp"
+       >
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Bạn chưa có tài khoản? "
+           android:textColor="@color/teal_700"
+           />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/dangki"
+           android:id="@+id/login_txt_dangki"
+           android:textColor="@color/custom_color_pressed"
+           android:textSize="16sp"
+           />
+   </LinearLayout>
+</LinearLayout>
